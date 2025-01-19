@@ -1,0 +1,8 @@
+:host {
+    display: flex;
+    justify-content: center;
+}
+
+.info-review {
+    padding: 2rem 1rem;
+}

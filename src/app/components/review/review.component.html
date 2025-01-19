@@ -1,0 +1,6 @@
+<section class="info-review">
+    <h3>Review your information</h3>
+    @for(item of displayDatas|keyvalue; track item.key) {
+        <div [attr.data-testid]="item.key">{{item.value}}</div>
+    }
+</section>
